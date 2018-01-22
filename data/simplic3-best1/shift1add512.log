@@ -1,0 +1,92 @@
+initialized model with 18 latches, 4 inputs and 1 properties
+tsim: performed 218 steps
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 217 steps
+tsim: found 1 constants and 0 latch equivalences
+tdecomp: (18, 16) -> (17, 11)
+   2 : 1 0
+   3 : 1 1 0
+   4 : 1 1 1 0
+   5 : 1 1 1 1 0
+   6 : 1 1 1 1 1 0
+   7 : 1 1 1 1 1 1 0
+   8 : 1 1 1 1 1 1 1 0
+   9 : 1 1 1 1 1 1 1 1 1
+  10 : 1 1 1 1 1 1 1 1 1 0
+ ... : 1 1 1 1 1 1 2 1 1 0
+ ... : 1 1 1 1 1 1 1 1 1 0
+ ... : 1 1 1 1 1 1 2 2 1 0
+ ... : 1 1 2 3 1 2 1 2 1 0
+ ... : 1 1 1 1 2 1 2 1 1 0
+ ... : 1 1 1 2 1 2 1 1 1 0
+ ... : 1 1 1 1 1 2 2 1 1 0
+ ... : 1 1 2 1 2 1 2 1 1 0
+  11 : 2 1 1 1 1 1 1 1 1 1 1
+  12 : 2 1 1 1 1 1 1 1 1 1 1 1
+  13 : 2 1 1 1 1 1 1 1 1 1 1 1 1
+  14 : 2 1 1 1 1 1 1 1 1 1 1 1 1 1
+  15 : 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+  16 : 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+  17 : 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2
+  18 : 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ ... : 2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1
+ ... : 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ ... : 2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 1 1
+ ... : 2 1 1 1 1 1 1 1 1 1 2 3 1 2 1 2 1 1
+ ... : 2 1 1 1 1 1 1 1 1 1 1 2 1 2 2 2 1 1
+ ... : 2 1 1 1 1 1 1 1 2 3 2 1 2 1 2 2 1 1
+ ... : 2 1 1 1 1 1 1 1 2 2 1 2 1 1 2 2 1 1
+ ... : 4 1 1 2 2 1 2 2 1 1 2 2 1 1 2 2 1 2
+  19 : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2
+  20 : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2
+  21 : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2
+  22 : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2
+  23 : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3
+  24 : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2
+ ... : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2
+ ... : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 3 2 2
+ ... : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 1 2 2 2
+ ... : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 2 1 2 2
+ ... : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 2 1 2 1 1 2 2
+ ... : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 2 1 1 1 2 2
+ ... : 4 1 1 1 1 1 1 1 1 1 1 1 2 1 2 1 2 1 2 1 1 1 2 2
+ ... : 4 1 1 1 1 2 1 2 1 1 2 1 2 1 1 1 2 1 2 1 1 1 2 3
+  25 : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3
+  26 : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 3
+num_solve_calls = 29865
+num_solve_sat_calls = 12262
+num_solve_unsat_calls = 1979
+num_solve_approx_calls = 13774
+num_solve_approx_unsat_calls = 3099
+num_solve_conflicts = 1520
+num_solve_decisions = 227321
+num_solve_propagations = 1330907
+avg_solve_conflicts = 1
+avg_solve_decisions = 8
+avg_solve_propagations = 45
+avg_solve_unsat_decisions = 0.000
+stddev_solve_unsat_decisions = 0.000
+num_added_cubes = 2023
+num_subsumed_cubes = 1993
+num_gc_frame = 1520
+num_reset = 5
+num_try_blocking = 14700
+get_bad_cube_time = 0.002
+rec_block_cube_time = 0.565
+propagate_forward_time = 0.014
+generalize_model_time = 0.093
+generalize_and_push_time = 0.359
+try_blocking_time = 0.545
+reset_time = 0.005
+clausify_time = 0.034
+preprocess_time = 0.002
+solve_time = 0.462
+solve_sat_time = 0.340
+solve_unsat_time = 0.122
+prove_time = 0.608
+memory_used_mb = 7
+total_time = 0.613
+Safe

@@ -1,0 +1,51 @@
+initialized model with 80927 latches, 1586 inputs and 1 properties
+tsim: performed 68 steps
+tsim: found cycle from 66
+tsim: found 2862 constants and 325 latch equivalences
+seqsimpl: found 349 latch equivalences
+seqsimpl: found 82 latch equivalences
+seqsimpl: found 9 latch equivalences
+seqsimpl: (80927, 1586) -> (55158, 1325)
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 53 steps
+tsim: found cycle from 51
+tsim: found 3 constants and 0 latch equivalences
+tdecomp: (55158, 5300) -> (55155, 3807)
+ ... : 200
+ ... : 401
+ ... : 602
+ ... : 803
+ ... : 1004
+ ... : 1205
+ ... : 1406
+ ... : 1607
+ ... : 1808
+ ... : 2009
+ ... : 2210
+ ... : 2411
+ ... : 2612
+ ... : 2813
+ ... : 3014
+ ... : 3215
+ ... : 3416
+ ... : 3617
+ ... : 3818
+ ... : 4019
+ ... : 4220
+ ... : 4421
+ ... : 4622
+ ... : 4823
+ ... : 5024
+ ... : 5225
+ ... : 5426
+ ... : 5627
+ ... : 5828
+ ... : 6029
+ ... : 6230
+ ... : 6431
+ ... : 6632
+ ... : 6833
+ ... : 7034

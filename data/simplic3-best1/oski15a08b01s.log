@@ -1,0 +1,18 @@
+initialized model with 16357 latches, 15696 inputs and 1 properties
+tsim: performed 11 steps
+tsim: found cycle from 9
+tsim: found 0 constants and 6 latch equivalences
+seqsimpl: found 31 latch equivalences
+seqsimpl: found 2 latch equivalences
+seqsimpl: (16357, 15696) -> (15788, 15696)
+checking bound 0
+checking bound 1
+checking bound 2
+seqsimpl: completing cex trace with simulation
+reached_depth = 3
+clausify_time = 0.237
+preprocess_time = 5.589
+prove_time = 9.505
+memory_used_mb = 385
+total_time = 20.603
+Unsafe

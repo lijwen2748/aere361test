@@ -1,0 +1,58 @@
+initialized model with 198 latches, 42 inputs and 1 properties
+tsim: performed 7 steps
+tsim: found cycle from 5
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 5 steps
+tsim: found cycle from 3
+tsim: found 1 constants and 0 latch equivalences
+tdecomp: (198, 168) -> (177, 47)
+   2 : 20 4
+   3 : 27 58 13
+ ... : 34 86 100
+   4 : 37 93 73 32
+ ... : 45 108 100 55
+ ... : 52 127 118 69
+ ... : 64 143 130 93
+   5 : 69 138 115 49 65
+ ... : 77 150 125 51 109
+ ... : 83 170 150 69 124
+ ... : 85 185 162 86 139
+   6 : 89 186 161 88 27 115
+   7 : 89 186 161 88 27 0 115
+num_solve_calls = 20385
+num_solve_sat_calls = 7910
+num_solve_unsat_calls = 815
+num_solve_approx_calls = 10649
+num_solve_approx_unsat_calls = 3563
+num_solve_conflicts = 14948
+num_solve_decisions = 868147
+num_solve_propagations = 24897314
+avg_solve_conflicts = 1
+avg_solve_decisions = 43
+avg_solve_propagations = 1222
+avg_solve_unsat_decisions = 0.908
+stddev_solve_unsat_decisions = 3.582
+num_added_cubes = 1187
+num_subsumed_cubes = 521
+num_gc_frame = 17
+num_reset = 1
+num_try_blocking = 9732
+get_bad_cube_time = 1.737
+rec_block_cube_time = 2.677
+propagate_forward_time = 0.685
+generalize_model_time = 0.923
+generalize_and_push_time = 1.934
+try_blocking_time = 3.257
+reset_time = 0.042
+clausify_time = 0.289
+preprocess_time = 0.057
+solve_time = 4.867
+solve_sat_time = 3.590
+solve_unsat_time = 1.277
+prove_time = 5.422
+memory_used_mb = 16
+total_time = 5.486
+Safe

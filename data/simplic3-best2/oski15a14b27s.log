@@ -1,0 +1,90 @@
+initialized model with 3519 latches, 1071 inputs and 1 properties
+tsim: performed 9 steps
+tsim: found cycle from 7
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 7 steps
+tsim: found cycle from 5
+tsim: found 2 constants and 0 latch equivalences
+tdecomp: (3519, 4284) -> (3454, 2759)
+ ... : 200
+ ... : 401
+ ... : 602
+   2 : 358 296
+ ... : 380 497
+ ... : 391 698
+   3 : 448 567 208
+ ... : 443 720 420
+ ... : 451 793 511
+ ... : 451 852 619
+ ... : 453 917 726
+ ... : 453 943 877
+ ... : 453 996 1055
+ ... : 469 1117 1175
+ ... : 482 1223 1267
+ ... : 489 1244 1215
+ ... : 494 1306 1282
+ ... : 555 1384 1301
+ ... : 562 1435 1384
+ ... : 568 1496 1459
+ ... : 675 1545 1506
+ ... : 713 1607 1559
+ ... : 744 1667 1618
+ ... : 743 1717 1699
+   4 : 669 1158 1099 1184
+ ... : 670 1165 1224 1348
+ ... : 654 1167 1275 1440
+ ... : 645 1172 1323 1528
+ ... : 646 1187 1349 1608
+ ... : 639 1189 1368 1654
+   5 : 614 1144 1067 762 1169
+ ... : 614 1144 1067 692 1377
+ ... : 614 1144 1060 712 1595
+ ... : 611 1148 1058 739 1675
+ ... : 598 1141 1054 766 1700
+ ... : 590 1142 1049 790 1737
+ ... : 571 1139 1048 815 1778
+ ... : 571 1142 1049 833 1828
+ ... : 566 1143 1055 813 1841
+tdecomp: completing cex trace with 2 initial steps
+seqsimpl: completing cex trace with simulation
+num_solve_calls = 907802
+num_solve_sat_calls = 239936
+num_solve_unsat_calls = 18723
+num_solve_approx_calls = 765000
+num_solve_approx_unsat_calls = 565091
+num_solve_conflicts = 165123
+num_solve_decisions = 168890298
+num_solve_propagations = 2185299354
+avg_solve_conflicts = 1
+avg_solve_decisions = 187
+avg_solve_propagations = 2408
+avg_solve_unsat_decisions = 7.272
+stddev_solve_unsat_decisions = 87.512
+num_added_cubes = 11610
+num_subsumed_cubes = 6168
+num_mic_down_calls = 36829
+num_mic_down_good = 13320
+num_added_ctgs = 2277
+num_gc_frame = 9
+num_reset = 16
+num_try_blocking = 68870
+get_bad_cube_time = 128.230
+rec_block_cube_time = 316.609
+propagate_forward_time = 4.372
+generalize_model_time = 104.612
+generalize_and_push_time = 209.751
+ctg_time = 98.731
+try_blocking_time = 293.588
+reset_time = 3.993
+clausify_time = 6.192
+preprocess_time = 1.827
+solve_time = 391.466
+solve_sat_time = 267.613
+solve_unsat_time = 123.853
+prove_time = 453.097
+memory_used_mb = 116
+total_time = 454.756
+Unsafe

@@ -1,0 +1,75 @@
+initialized model with 23 latches, 10 inputs and 1 properties
+tsim: reached all X state
+tsim: performed 9 steps
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: reached all X state
+tsim: performed 7 steps
+tdecomp: no improvement found, reverting original model
+   2 : 3 14
+   3 : 3 3 15
+   4 : 3 3 5 14
+   5 : 3 3 5 3 20
+   6 : 3 3 5 3 2 19
+   7 : 3 3 5 3 2 6 13
+   8 : 3 3 5 3 2 6 1 21
+   9 : 3 3 5 3 2 6 1 2 19
+  10 : 2 2 2 2 2 2 1 1 2 21
+  11 : 2 2 2 2 2 2 1 1 2 2 20
+  12 : 2 2 2 2 2 2 1 1 2 2 2 21
+  13 : 2 2 2 2 2 2 1 1 2 2 2 2 28
+  14 : 2 2 2 2 2 2 1 1 2 2 2 2 2 26
+  15 : 2 2 2 2 2 2 1 1 2 2 2 2 2 2 24
+  16 : 2 2 2 2 2 2 1 1 2 2 2 2 2 1 2 26
+  17 : 2 2 2 2 2 2 1 1 2 2 2 2 2 1 2 1 25
+  18 : 2 2 2 2 2 2 1 1 2 2 2 2 2 1 2 1 1 25
+  19 : 2 2 2 2 2 2 1 1 2 2 2 2 2 1 2 1 1 1 27
+  20 : 2 2 2 2 2 2 1 1 2 2 2 2 2 1 2 1 1 1 1 26
+  21 : 2 2 2 2 2 2 1 1 2 2 2 2 2 1 2 1 1 1 1 1 25
+  22 : 2 2 2 2 2 2 1 1 2 2 2 2 2 1 2 1 1 1 1 1 2 23
+  23 : 2 2 2 2 2 2 1 1 2 2 2 2 2 1 2 1 1 1 1 1 2 1 26
+  24 : 2 2 2 2 2 2 1 1 2 2 2 2 2 1 2 1 1 1 1 1 2 1 1 25
+  25 : 2 2 2 2 2 2 1 1 2 2 2 2 2 1 2 1 1 1 1 1 2 1 1 2 23
+  26 : 2 2 2 2 2 2 1 1 2 2 2 2 2 1 2 1 1 1 1 1 2 1 1 2 1 26
+  27 : 2 2 2 2 2 2 1 1 2 2 2 2 2 1 2 1 1 1 1 1 2 1 1 2 1 1 25
+  28 : 2 2 2 2 2 2 1 1 2 2 2 2 2 1 2 1 1 1 1 1 2 1 1 2 1 1 2 23
+  29 : 2 2 2 2 2 2 1 1 2 2 2 2 2 1 2 1 1 1 1 1 2 1 1 2 1 1 2 1 26
+  30 : 2 2 2 2 2 2 1 1 2 2 2 2 2 1 2 1 1 1 1 1 2 1 1 2 1 1 2 1 1 25
+  31 : 2 2 2 2 2 2 1 1 2 2 2 2 2 1 2 1 1 1 1 1 2 1 1 2 1 1 2 1 1 0 25
+completing final invariant with sub-IC3 call...
+num_solve_calls = 3229
+num_solve_sat_calls = 1116
+num_solve_unsat_calls = 91
+num_solve_approx_calls = 2503
+num_solve_approx_unsat_calls = 1515
+num_solve_conflicts = 7372
+num_solve_decisions = 30391
+num_solve_propagations = 775215
+avg_solve_conflicts = 3
+avg_solve_decisions = 10
+avg_solve_propagations = 241
+avg_solve_unsat_decisions = 0.033
+stddev_solve_unsat_decisions = 0.233
+num_added_cubes = 777
+num_subsumed_cubes = 708
+num_gc_frame = 141
+num_reset = 0
+num_try_blocking = 1805
+get_bad_cube_time = 0.113
+rec_block_cube_time = 0.012
+propagate_forward_time = 0.048
+generalize_model_time = 0.013
+generalize_and_push_time = 0.009
+try_blocking_time = 0.058
+reset_time = 0.000
+clausify_time = 0.041
+preprocess_time = 0.000
+solve_time = 0.157
+solve_sat_time = 0.059
+solve_unsat_time = 0.098
+prove_time = 0.223
+memory_used_mb = 7
+total_time = 0.247
+Safe

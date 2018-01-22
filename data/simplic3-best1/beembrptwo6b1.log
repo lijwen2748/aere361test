@@ -1,0 +1,67 @@
+initialized model with 228 latches, 259 inputs and 1 properties
+tsim: performed 3 steps
+tsim: found cycle from 1
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 2 steps
+tsim: found cycle from 0
+tsim: found 1 constants and 0 latch equivalences
+tdecomp: (228, 1036) -> (227, 744)
+   2 : 5 0
+   3 : 5 6 0
+   4 : 5 7 6 1
+   5 : 7 8 7 6 1
+   6 : 7 8 8 9 10 1
+   7 : 7 8 8 9 10 9 2
+   8 : 8 9 9 11 10 10 8 4
+   9 : 8 9 10 10 11 10 7 8 4
+ ... : 8 9 10 11 12 10 7 9 8
+  10 : 8 9 11 11 12 10 8 9 9 6
+  11 : 8 9 11 11 12 10 8 9 9 3 7
+  12 : 8 9 11 11 12 10 8 9 11 4 5 7
+  13 : 8 9 11 11 12 10 8 9 11 5 7 5 7
+  14 : 8 9 11 11 12 10 8 9 11 5 7 5 3 8
+  15 : 8 9 11 11 12 10 8 9 11 5 7 5 3 3 8
+  16 : 8 9 11 11 12 10 8 9 11 5 7 5 3 3 3 8
+  17 : 8 9 11 11 12 10 8 9 11 5 7 5 3 3 3 8 2
+ ... : 8 9 11 11 12 10 8 9 11 5 7 5 4 3 3 9 11
+ ... : 8 9 11 11 12 11 8 11 12 9 8 6 5 5 4 9 12
+ ... : 9 10 13 17 18 20 10 11 12 9 8 6 5 5 4 9 12
+tdecomp: completing cex trace with 2 initial steps
+seqsimpl: completing cex trace with simulation
+num_solve_calls = 34446
+num_solve_sat_calls = 13264
+num_solve_unsat_calls = 577
+num_solve_approx_calls = 18383
+num_solve_approx_unsat_calls = 7455
+num_solve_conflicts = 7851
+num_solve_decisions = 1809369
+num_solve_propagations = 45575361
+avg_solve_conflicts = 1
+avg_solve_decisions = 53
+avg_solve_propagations = 1324
+avg_solve_unsat_decisions = 0.050
+stddev_solve_unsat_decisions = 0.281
+num_added_cubes = 661
+num_subsumed_cubes = 481
+num_gc_frame = 81
+num_reset = 3
+num_try_blocking = 14896
+get_bad_cube_time = 0.610
+rec_block_cube_time = 7.604
+propagate_forward_time = 0.669
+generalize_model_time = 0.654
+generalize_and_push_time = 6.372
+try_blocking_time = 6.353
+reset_time = 0.170
+clausify_time = 0.661
+preprocess_time = 0.154
+solve_time = 8.041
+solve_sat_time = 6.315
+solve_unsat_time = 1.726
+prove_time = 9.514
+memory_used_mb = 25
+total_time = 9.823
+Unsafe

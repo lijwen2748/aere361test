@@ -1,0 +1,109 @@
+initialized model with 94 latches, 116 inputs and 1 properties
+tsim: performed 3 steps
+tsim: found cycle from 1
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 2 steps
+tsim: found cycle from 0
+tsim: found 1 constants and 0 latch equivalences
+tdecomp: (94, 464) -> (93, 324)
+ ... : 199
+ ... : 400
+ ... : 600
+ ... : 801
+ ... : 1002
+ ... : 1203
+ ... : 1404
+   2 : 1491 14
+ ... : 1491 214
+ ... : 1491 415
+ ... : 1491 615
+ ... : 1491 815
+ ... : 1491 1015
+ ... : 1505 1181
+ ... : 1511 1346
+ ... : 1525 1503
+ ... : 1548 1638
+   3 : 1546 1477 189
+ ... : 1546 1466 388
+ ... : 1546 1464 584
+ ... : 1546 1464 785
+ ... : 1546 1464 986
+ ... : 1546 1468 1175
+ ... : 1546 1476 1353
+ ... : 1546 1479 1548
+ ... : 1548 1480 1692
+ ... : 1549 1490 1828
+ ... : 1549 1506 1950
+ ... : 1549 1508 2091
+   4 : 1547 1457 1244 960
+ ... : 1547 1457 1238 1160
+ ... : 1547 1457 1238 1359
+ ... : 1547 1457 1242 1542
+ ... : 1547 1457 1241 1743
+ ... : 1547 1457 1249 1914
+ ... : 1547 1454 1258 2059
+ ... : 1547 1455 1246 2214
+ ... : 1547 1458 1255 2331
+ ... : 1547 1458 1259 2436
+ ... : 1547 1458 1275 2571
+   5 : 1547 1456 1096 1064 1651
+ ... : 1547 1456 1096 1075 1778
+ ... : 1547 1456 1096 1076 1931
+ ... : 1547 1456 1096 1092 2066
+ ... : 1547 1456 1096 1089 2250
+ ... : 1547 1456 1096 1109 2357
+ ... : 1547 1456 1096 1139 2451
+ ... : 1547 1456 1098 1157 2555
+ ... : 1547 1456 1098 1156 2665
+   6 : 1547 1456 1085 1085 722 2103
+ ... : 1547 1456 1085 1085 717 2265
+ ... : 1547 1456 1085 1087 724 2416
+ ... : 1547 1456 1085 1091 725 2534
+ ... : 1547 1456 1085 1090 715 2627
+ ... : 1547 1456 1085 1090 699 2736
+   7 : 1547 1456 1084 1061 389 369 2664
+ ... : 1547 1456 1084 1061 376 355 2775
+ ... : 1547 1456 1084 1061 375 303 2939
+   8 : 1547 1456 1084 1061 367 117 139 2983
+ ... : 1547 1456 1084 1061 367 107 127 3095
+   9 : 1547 1456 1084 1029 302 122 27 102 3100
+  10 : 1547 1456 1084 1029 302 122 27 6 16 3196
+  11 : 1547 1456 1084 1028 275 99 44 28 4 4 3212
+  12 : 1547 1456 1084 1028 275 99 44 28 4 0 3216 0
+num_solve_calls = 1814728
+num_solve_sat_calls = 613634
+num_solve_unsat_calls = 10619
+num_solve_approx_calls = 999258
+num_solve_approx_unsat_calls = 504825
+num_solve_conflicts = 6376030
+num_solve_decisions = 64559926
+num_solve_propagations = 3243238678
+avg_solve_conflicts = 4
+avg_solve_decisions = 36
+avg_solve_propagations = 1788
+avg_solve_unsat_decisions = 5.621
+stddev_solve_unsat_decisions = 16.690
+num_added_cubes = 32017
+num_subsumed_cubes = 23236
+num_gc_frame = 62
+num_reset = 140
+num_try_blocking = 753111
+get_bad_cube_time = 1208.162
+rec_block_cube_time = 396.168
+propagate_forward_time = 70.230
+generalize_model_time = 22.720
+generalize_and_push_time = 297.041
+try_blocking_time = 313.908
+reset_time = 82.037
+clausify_time = 2.070
+preprocess_time = 78.987
+solve_time = 1589.040
+solve_sat_time = 1255.507
+solve_unsat_time = 333.533
+prove_time = 1696.242
+memory_used_mb = 28
+total_time = 1696.311
+Safe

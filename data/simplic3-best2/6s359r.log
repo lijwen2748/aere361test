@@ -1,0 +1,16 @@
+initialized model with 1089 latches, 68 inputs and 1 properties
+tsim: performed 9 steps
+tsim: found cycle from 6
+tsim: found 414 constants and 27 latch equivalences
+seqsimpl: (1089, 68) -> (229, 66)
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 7 steps
+tsim: found cycle from 4
+tsim: found 2 constants and 0 latch equivalences
+tdecomp: (229, 264) -> (227, 67)
+   2 : 1 0
+   3 : 1 0 1
+completing final invariant with sub-IC3 call...

@@ -1,0 +1,126 @@
+initialized model with 26324 latches, 1051 inputs and 1 properties
+tsim: performed 25 steps
+tsim: found cycle from 22
+tsim: found 1049 constants and 714 latch equivalences
+seqsimpl: (26324, 1051) -> (21699, 209)
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 23 steps
+tsim: found cycle from 20
+tsim: found 27 constants and 0 latch equivalences
+tdecomp: (21699, 836) -> (21670, 390)
+   2 : 26 5
+   3 : 30 4 20
+ ... : 51 23 76
+ ... : 75 35 125
+ ... : 112 49 173
+ ... : 161 82 204
+ ... : 214 126 222
+ ... : 267 170 238
+ ... : 278 214 282
+ ... : 292 266 327
+ ... : 309 321 383
+ ... : 323 353 437
+ ... : 340 390 491
+ ... : 358 412 534
+ ... : 375 457 581
+ ... : 385 503 636
+ ... : 398 525 682
+ ... : 415 534 718
+ ... : 428 567 779
+ ... : 429 580 836
+ ... : 428 586 883
+ ... : 464 633 896
+ ... : 483 669 923
+ ... : 494 690 981
+ ... : 511 721 1028
+ ... : 532 766 1064
+ ... : 553 803 1104
+ ... : 563 834 1149
+ ... : 574 872 1194
+ ... : 586 893 1241
+ ... : 586 929 1244
+ ... : 586 970 1246
+   4 : 470 701 824 644
+ ... : 471 706 844 687
+ ... : 473 708 876 698
+ ... : 487 732 906 711
+ ... : 491 741 935 753
+ ... : 491 746 959 809
+ ... : 492 737 941 807
+ ... : 498 748 971 846
+ ... : 506 761 998 872
+ ... : 507 762 1002 899
+ ... : 514 774 1033 913
+ ... : 515 777 1062 949
+ ... : 518 781 1067 990
+ ... : 521 786 1088 1012
+ ... : 522 790 1109 1055
+ ... : 522 788 1127 1088
+ ... : 521 789 1120 1134
+ ... : 532 809 1140 1158
+ ... : 535 818 1167 1195
+ ... : 536 824 1201 1249
+ ... : 536 836 1224 1284
+ ... : 542 843 1238 1317
+ ... : 543 855 1264 1358
+ ... : 541 858 1298 1404
+ ... : 543 866 1328 1448
+ ... : 549 872 1328 1467
+ ... : 550 886 1369 1512
+ ... : 552 891 1404 1574
+ ... : 560 908 1415 1591
+ ... : 560 911 1426 1630
+ ... : 560 920 1460 1679
+ ... : 561 934 1465 1700
+ ... : 568 953 1491 1724
+ ... : 564 952 1513 1772
+ ... : 569 982 1555 1803
+ ... : 584 1002 1579 1826
+ ... : 585 1007 1595 1862
+ ... : 583 1010 1606 1914
+ ... : 594 1015 1621 1955
+ ... : 610 1033 1639 1986
+ ... : 609 1031 1648 2015
+ ... : 607 1032 1655 2079
+ ... : 606 1044 1681 2104
+ ... : 605 1043 1676 2144
+ ... : 606 1044 1678 2187
+tdecomp: completing cex trace with 2 initial steps
+seqsimpl: completing cex trace with simulation
+num_solve_calls = 297413
+num_solve_sat_calls = 103902
+num_solve_unsat_calls = 7753
+num_solve_approx_calls = 198841
+num_solve_approx_unsat_calls = 106886
+num_solve_conflicts = 97187
+num_solve_decisions = 149782485
+num_solve_propagations = 2352733528
+avg_solve_conflicts = 1
+avg_solve_decisions = 504
+avg_solve_propagations = 7911
+avg_solve_unsat_decisions = 16.317
+stddev_solve_unsat_decisions = 392.081
+num_added_cubes = 8807
+num_subsumed_cubes = 3271
+num_gc_frame = 7
+num_reset = 17
+num_try_blocking = 82809
+get_bad_cube_time = 0.815
+rec_block_cube_time = 582.432
+propagate_forward_time = 2.384
+generalize_model_time = 109.327
+generalize_and_push_time = 147.825
+try_blocking_time = 526.081
+reset_time = 41.244
+clausify_time = 9.734
+preprocess_time = 32.588
+solve_time = 527.887
+solve_sat_time = 321.854
+solve_unsat_time = 206.033
+prove_time = 588.215
+memory_used_mb = 303
+total_time = 595.317
+Unsafe

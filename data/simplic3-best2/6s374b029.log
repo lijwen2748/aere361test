@@ -1,0 +1,108 @@
+initialized model with 26324 latches, 1051 inputs and 1 properties
+tsim: performed 25 steps
+tsim: found cycle from 22
+tsim: found 1049 constants and 714 latch equivalences
+seqsimpl: (26324, 1051) -> (21699, 209)
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 23 steps
+tsim: found cycle from 20
+tsim: found 27 constants and 0 latch equivalences
+tdecomp: (21699, 836) -> (21670, 390)
+   2 : 47 6
+   3 : 56 12 10
+   4 : 64 28 9 29
+ ... : 72 52 24 63
+ ... : 93 78 46 89
+ ... : 102 92 75 112
+ ... : 101 98 106 160
+ ... : 106 109 129 210
+ ... : 111 108 136 264
+ ... : 112 111 142 308
+ ... : 220 160 152 332
+ ... : 236 204 176 354
+ ... : 264 249 192 372
+ ... : 281 283 220 397
+ ... : 301 316 259 414
+ ... : 310 347 300 423
+ ... : 309 343 337 462
+ ... : 319 363 369 499
+ ... : 353 402 397 516
+ ... : 387 431 431 530
+ ... : 443 473 466 540
+ ... : 474 527 492 557
+ ... : 501 566 533 571
+ ... : 517 606 581 580
+ ... : 561 649 629 592
+ ... : 610 695 673 600
+ ... : 653 740 731 609
+ ... : 687 770 786 615
+ ... : 728 803 838 621
+ ... : 771 834 900 625
+ ... : 824 868 956 632
+ ... : 839 890 1002 663
+ ... : 844 891 1044 720
+ ... : 842 890 1075 774
+ ... : 847 899 1114 820
+ ... : 848 897 1148 892
+ ... : 843 894 1155 992
+ ... : 846 892 1179 1075
+ ... : 844 903 1214 1137
+ ... : 842 903 1232 1223
+ ... : 854 922 1261 1253
+ ... : 893 985 1296 1274
+ ... : 896 999 1322 1365
+ ... : 902 993 1327 1440
+ ... : 903 997 1335 1502
+ ... : 902 998 1336 1549
+ ... : 897 1001 1339 1584
+ ... : 903 1007 1348 1629
+ ... : 908 1020 1371 1697
+ ... : 914 1027 1384 1743
+ ... : 918 1031 1395 1801
+ ... : 915 1040 1435 1850
+ ... : 924 1067 1492 1881
+ ... : 922 1077 1509 1936
+ ... : 914 1071 1528 1962
+tdecomp: completing cex trace with 2 initial steps
+seqsimpl: completing cex trace with simulation
+num_solve_calls = 237757
+num_solve_sat_calls = 82267
+num_solve_unsat_calls = 15429
+num_solve_approx_calls = 106233
+num_solve_approx_unsat_calls = 69304
+num_solve_conflicts = 83825
+num_solve_decisions = 506213433
+num_solve_propagations = 3205324398
+avg_solve_conflicts = 1
+avg_solve_decisions = 2130
+avg_solve_propagations = 13482
+avg_solve_unsat_decisions = 8.174
+stddev_solve_unsat_decisions = 190.061
+num_added_cubes = 6944
+num_subsumed_cubes = 1448
+num_mic_down_calls = 34208
+num_mic_down_good = 10549
+num_added_ctgs = 2016
+num_gc_frame = 6
+num_reset = 14
+num_try_blocking = 52069
+get_bad_cube_time = 0.926
+rec_block_cube_time = 972.077
+propagate_forward_time = 0.052
+generalize_model_time = 193.853
+generalize_and_push_time = 758.122
+ctg_time = 193.995
+try_blocking_time = 928.094
+reset_time = 24.991
+clausify_time = 12.652
+preprocess_time = 13.320
+solve_time = 914.842
+solve_sat_time = 637.076
+solve_unsat_time = 277.766
+prove_time = 975.455
+memory_used_mb = 351
+total_time = 982.895
+Unsafe

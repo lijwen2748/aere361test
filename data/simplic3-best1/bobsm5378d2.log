@@ -1,0 +1,81 @@
+initialized model with 256 latches, 35 inputs and 1 properties
+tsim: performed 27 steps
+tsim: found cycle from 25
+tsim: found 1 constants and 1 latch equivalences
+seqsimpl: found 19 latch equivalences
+seqsimpl: (256, 35) -> (235, 35)
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 25 steps
+tsim: found cycle from 23
+tsim: found 2 constants and 0 latch equivalences
+tdecomp: (235, 140) -> (232, 96)
+   2 : 43 21
+ ... : 47 113
+   3 : 23 44 92
+   4 : 23 26 39 125
+   5 : 21 23 15 35 130
+   6 : 21 23 14 7 14 180
+   7 : 20 24 14 7 13 30 164
+   8 : 20 24 13 7 11 26 52 179
+   9 : 19 24 13 7 10 15 19 65 179
+  10 : 19 23 13 7 10 15 13 18 39 262
+  11 : 19 22 13 7 10 15 13 14 17 55 248
+  12 : 18 22 12 7 10 15 13 11 13 32 64 272
+  13 : 17 22 12 7 10 15 13 11 13 17 16 55 290
+  14 : 17 22 12 7 10 15 13 11 13 14 10 13 12 385
+  15 : 17 22 12 7 10 15 13 11 13 14 10 13 12 44 357
+  16 : 17 22 12 7 10 15 13 11 13 14 10 11 10 35 62 340
+  17 : 17 22 12 7 10 15 13 11 13 14 10 10 7 12 13 36 376
+  18 : 17 22 12 7 10 15 13 11 13 14 10 10 7 12 12 18 39 380
+  19 : 17 22 12 7 10 15 13 11 13 14 10 10 7 12 12 17 13 43 365
+  20 : 17 22 12 7 10 15 13 11 13 14 10 10 7 12 12 16 12 17 15 419
+  21 : 17 22 12 7 10 15 13 11 13 14 10 10 7 12 12 16 12 17 15 42 377
+  22 : 17 22 12 7 10 15 13 11 13 14 10 10 7 12 12 16 12 17 13 7 4 440
+  23 : 17 22 12 7 10 15 13 11 13 14 10 10 7 12 12 16 12 17 13 7 4 9 431
+  24 : 17 22 12 7 10 15 13 11 13 14 10 10 7 12 12 16 12 17 13 7 4 6 5 443
+  25 : 17 22 12 7 10 15 13 11 13 14 10 10 7 12 12 16 12 17 13 7 4 6 5 11 432
+  26 : 17 22 12 7 10 15 13 11 13 14 10 10 7 12 12 16 12 17 13 7 4 6 5 8 3 440
+  27 : 17 22 12 7 10 15 13 11 13 14 10 10 7 12 12 16 12 17 13 7 4 6 5 8 3 5 435
+  28 : 17 22 12 7 10 15 13 11 13 14 10 10 7 12 12 16 12 17 13 7 4 6 5 8 3 3 1 437
+  29 : 17 22 12 7 10 15 13 11 13 14 10 10 7 12 12 16 12 17 13 7 4 6 5 8 3 3 1 2 435
+  30 : 17 22 12 7 10 15 13 11 13 14 10 10 7 12 12 16 12 17 13 7 4 6 5 8 3 3 1 2 1 434
+  31 : 17 22 12 7 10 15 13 11 13 14 10 10 7 12 12 16 12 17 13 7 4 6 5 8 3 3 1 2 1 1 433
+  32 : 17 22 12 7 10 15 13 11 13 14 10 10 7 12 12 16 12 17 13 7 4 6 5 8 3 3 1 2 1 1 0 433
+completing final invariant with sub-IC3 call...
+num_solve_calls = 47642
+num_solve_sat_calls = 13564
+num_solve_unsat_calls = 1296
+num_solve_approx_calls = 36574
+num_solve_approx_unsat_calls = 25236
+num_solve_conflicts = 440978
+num_solve_decisions = 2832515
+num_solve_propagations = 92181881
+avg_solve_conflicts = 10
+avg_solve_decisions = 60
+avg_solve_propagations = 1935
+avg_solve_unsat_decisions = 1.731
+stddev_solve_unsat_decisions = 7.568
+num_added_cubes = 11604
+num_subsumed_cubes = 10887
+num_gc_frame = 196
+num_reset = 5
+num_try_blocking = 22599
+get_bad_cube_time = 28.601
+rec_block_cube_time = 1.442
+propagate_forward_time = 1.987
+generalize_model_time = 1.635
+generalize_and_push_time = 0.864
+try_blocking_time = 2.989
+reset_time = 0.094
+clausify_time = 0.684
+preprocess_time = 0.077
+solve_time = 32.311
+solve_sat_time = 9.372
+solve_unsat_time = 22.939
+prove_time = 33.605
+memory_used_mb = 14
+total_time = 39.987
+Safe

@@ -1,0 +1,53 @@
+initialized model with 293 latches, 288 inputs and 1 properties
+tsim: performed 5 steps
+tsim: found cycle from 2
+tsim: found 0 constants and 1 latch equivalences
+seqsimpl: (293, 288) -> (240, 288)
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 3 steps
+tsim: found cycle from 0
+tsim: found 2 constants and 0 latch equivalences
+tdecomp: (240, 1152) -> (238, 779)
+   2 : 9 10
+   3 : 8 9 14
+   4 : 8 8 4 21
+   5 : 8 8 4 7 17
+   6 : 8 8 2 0 29 0
+completing final invariant with sub-IC3 call...
+num_solve_calls = 1363
+num_solve_sat_calls = 437
+num_solve_unsat_calls = 63
+num_solve_approx_calls = 666
+num_solve_approx_unsat_calls = 421
+num_solve_conflicts = 587
+num_solve_decisions = 167164
+num_solve_propagations = 1719973
+avg_solve_conflicts = 1
+avg_solve_decisions = 123
+avg_solve_propagations = 1262
+avg_solve_unsat_decisions = 0.000
+stddev_solve_unsat_decisions = 0.000
+num_added_cubes = 128
+num_subsumed_cubes = 81
+num_gc_frame = 16
+num_reset = 0
+num_try_blocking = 465
+get_bad_cube_time = 0.108
+rec_block_cube_time = 0.111
+propagate_forward_time = 0.022
+generalize_model_time = 0.062
+generalize_and_push_time = 0.085
+try_blocking_time = 0.086
+reset_time = 0.000
+clausify_time = 0.074
+preprocess_time = 0.014
+solve_time = 0.202
+solve_sat_time = 0.137
+solve_unsat_time = 0.065
+prove_time = 0.340
+memory_used_mb = 12
+total_time = 0.519
+Safe

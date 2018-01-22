@@ -1,0 +1,77 @@
+initialized model with 86 latches, 84 inputs and 1 properties
+tsim: performed 3 steps
+tsim: found cycle from 1
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 2 steps
+tsim: found cycle from 0
+tsim: found 1 constants and 0 latch equivalences
+tdecomp: (86, 336) -> (85, 252)
+   2 : 2 2
+   3 : 5 10 4
+   4 : 4 7 22 7
+   5 : 4 7 13 18 14
+   6 : 4 7 13 13 18 26
+   7 : 4 5 9 15 11 21 26
+   8 : 4 5 9 15 7 11 18 30
+   9 : 4 5 9 15 7 9 13 13 39
+  10 : 4 5 9 15 7 9 11 16 19 40
+  11 : 4 5 9 15 7 9 11 16 24 17 50
+  12 : 4 5 9 15 7 9 11 16 23 21 8 53
+  13 : 4 5 9 15 7 9 11 16 23 18 11 9 55
+  14 : 4 5 9 15 7 9 11 16 23 18 10 7 5 59
+  15 : 4 5 9 15 7 9 11 16 23 18 8 7 13 9 59
+  16 : 4 5 9 15 7 9 11 16 23 18 8 7 13 22 30 55
+  17 : 4 5 9 15 7 8 11 16 24 18 6 4 6 13 14 24 123
+  18 : 4 5 9 15 7 8 11 16 22 20 5 5 6 13 14 31 23 134
+  19 : 4 5 9 15 7 8 11 16 22 20 5 5 6 13 14 30 21 10 145
+  20 : 4 5 9 15 7 8 11 16 22 20 5 5 6 13 14 30 21 13 10 146
+  21 : 4 5 9 15 7 8 11 16 22 20 5 5 6 12 13 26 21 9 6 9 174
+  22 : 4 5 9 15 7 8 11 16 22 20 5 5 6 12 13 26 21 9 6 9 5 169
+  23 : 4 5 9 15 7 8 11 16 22 20 5 5 6 12 13 26 21 9 6 9 5 6 163
+  24 : 4 5 9 15 7 8 11 16 22 20 5 5 6 12 13 26 21 9 6 9 5 6 5 158
+  25 : 4 5 9 15 7 8 11 16 19 16 5 5 6 15 16 26 20 9 7 9 4 4 3 4 170
+  26 : 4 5 9 15 7 8 11 16 19 16 5 5 6 15 16 26 20 9 7 9 4 4 3 4 2 168
+  27 : 4 5 9 15 7 8 11 16 19 16 5 5 6 15 16 26 20 9 7 9 4 4 3 4 2 1 167
+  28 : 4 5 9 15 7 8 11 16 19 16 5 5 6 15 16 26 20 9 7 9 3 4 3 4 1 0 172 0
+completing final invariant with sub-IC3 call...
+num_solve_calls = 29438
+num_solve_sat_calls = 9613
+num_solve_unsat_calls = 2684
+num_solve_approx_calls = 13623
+num_solve_approx_unsat_calls = 8874
+num_solve_conflicts = 34907
+num_solve_decisions = 1376852
+num_solve_propagations = 15605739
+avg_solve_conflicts = 2
+avg_solve_decisions = 47
+avg_solve_propagations = 531
+avg_solve_unsat_decisions = 0.936
+stddev_solve_unsat_decisions = 3.636
+num_added_cubes = 3214
+num_subsumed_cubes = 2799
+num_mic_down_calls = 5115
+num_mic_down_good = 2555
+num_added_ctgs = 380
+num_gc_frame = 134
+num_reset = 3
+num_try_blocking = 13219
+get_bad_cube_time = 0.804
+rec_block_cube_time = 2.323
+propagate_forward_time = 1.717
+generalize_model_time = 0.394
+generalize_and_push_time = 2.181
+ctg_time = 1.386
+try_blocking_time = 3.406
+reset_time = 0.094
+clausify_time = 0.731
+preprocess_time = 0.065
+solve_time = 4.447
+solve_sat_time = 3.222
+solve_unsat_time = 1.225
+prove_time = 5.600
+memory_used_mb = 13
+total_time = 13.128
+Safe

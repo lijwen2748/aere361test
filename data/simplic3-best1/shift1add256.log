@@ -1,0 +1,76 @@
+initialized model with 17 latches, 4 inputs and 1 properties
+tsim: performed 217 steps
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 216 steps
+tsim: found 1 constants and 0 latch equivalences
+tdecomp: (17, 16) -> (16, 11)
+   2 : 1 0
+   3 : 1 1 0
+   4 : 1 1 1 0
+   5 : 1 1 1 1 0
+   6 : 1 1 1 1 1 0
+   7 : 1 1 1 1 1 1 0
+   8 : 1 1 1 1 1 1 1 1
+   9 : 1 1 1 1 1 1 1 1 0
+ ... : 1 1 1 1 1 2 1 1 0
+ ... : 1 1 1 1 1 1 1 1 0
+ ... : 1 1 1 1 1 2 2 1 0
+ ... : 2 2 2 1 2 1 2 1 1
+  10 : 2 1 1 1 1 1 1 1 1 1
+  11 : 2 1 1 1 1 1 1 1 1 1 1
+  12 : 2 1 1 1 1 1 1 1 1 1 1 1
+  13 : 2 1 1 1 1 1 1 1 1 1 1 1 1
+  14 : 2 1 1 1 1 1 1 1 1 1 1 1 1 2
+  15 : 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ ... : 2 1 1 1 1 1 1 1 1 1 1 1 1 2 2
+ ... : 2 1 1 1 1 1 1 1 1 1 1 2 3 1 2
+ ... : 2 1 1 1 1 1 1 1 1 1 2 2 1 1 2
+ ... : 4 1 1 2 2 1 2 2 1 1 2 2 1 1 3
+  16 : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2
+  17 : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2
+  18 : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2
+  19 : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2
+  20 : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2
+  21 : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3
+  22 : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2
+ ... : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 2
+ ... : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 2
+ ... : 4 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 2 1 2 1 1 2
+  23 : 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 3
+num_solve_calls = 13986
+num_solve_sat_calls = 5684
+num_solve_unsat_calls = 964
+num_solve_approx_calls = 6452
+num_solve_approx_unsat_calls = 1581
+num_solve_conflicts = 929
+num_solve_decisions = 102847
+num_solve_propagations = 594893
+avg_solve_conflicts = 1
+avg_solve_decisions = 8
+avg_solve_propagations = 43
+avg_solve_unsat_decisions = 0.000
+stddev_solve_unsat_decisions = 0.000
+num_added_cubes = 1003
+num_subsumed_cubes = 976
+num_gc_frame = 756
+num_reset = 2
+num_try_blocking = 6863
+get_bad_cube_time = 0.004
+rec_block_cube_time = 0.248
+propagate_forward_time = 0.012
+generalize_model_time = 0.034
+generalize_and_push_time = 0.145
+try_blocking_time = 0.245
+reset_time = 0.002
+clausify_time = 0.027
+preprocess_time = 0.001
+solve_time = 0.208
+solve_sat_time = 0.154
+solve_unsat_time = 0.054
+prove_time = 0.292
+memory_used_mb = 7
+total_time = 0.297
+Safe

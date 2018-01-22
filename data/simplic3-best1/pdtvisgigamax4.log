@@ -1,0 +1,47 @@
+initialized model with 16 latches, 22 inputs and 1 properties
+tsim: reached all X state
+tsim: performed 3 steps
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: reached all X state
+tsim: performed 2 steps
+tdecomp: no improvement found, reverting original model
+   2 : 3 0
+   3 : 3 1 4
+   4 : 3 0 7 0
+num_solve_calls = 186
+num_solve_sat_calls = 63
+num_solve_unsat_calls = 13
+num_solve_approx_calls = 77
+num_solve_approx_unsat_calls = 25
+num_solve_conflicts = 2054
+num_solve_decisions = 9137
+num_solve_propagations = 546008
+avg_solve_conflicts = 12
+avg_solve_decisions = 50
+avg_solve_propagations = 2936
+avg_solve_unsat_decisions = 1.538
+stddev_solve_unsat_decisions = 2.787
+num_added_cubes = 17
+num_subsumed_cubes = 7
+num_gc_frame = 8
+num_reset = 0
+num_try_blocking = 73
+get_bad_cube_time = 0.075
+rec_block_cube_time = 0.006
+propagate_forward_time = 0.002
+generalize_model_time = 0.007
+generalize_and_push_time = 0.002
+try_blocking_time = 0.008
+reset_time = 0.000
+clausify_time = 0.055
+preprocess_time = 0.004
+solve_time = 0.084
+solve_sat_time = 0.056
+solve_unsat_time = 0.028
+prove_time = 0.148
+memory_used_mb = 7
+total_time = 0.169
+Safe

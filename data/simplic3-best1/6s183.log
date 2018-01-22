@@ -1,0 +1,104 @@
+initialized model with 607 latches, 252 inputs and 1 properties
+tsim: performed 14 steps
+tsim: found cycle from 12
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 12 steps
+tsim: found cycle from 10
+tsim: found 1 constants and 0 latch equivalences
+tdecomp: (607, 1008) -> (606, 455)
+ ... : 199
+ ... : 400
+ ... : 600
+ ... : 801
+ ... : 997
+ ... : 1198
+ ... : 1399
+ ... : 1599
+ ... : 1800
+   2 : 1419 422
+ ... : 1419 622
+ ... : 1419 823
+ ... : 1419 1024
+ ... : 1419 1225
+ ... : 1419 1426
+ ... : 1418 1626
+   3 : 1417 1220 486
+ ... : 1417 1209 686
+ ... : 1417 1188 887
+ ... : 1417 1159 1087
+ ... : 1417 1119 1288
+ ... : 1417 1093 1489
+ ... : 1417 1078 1690
+ ... : 1417 1047 1891
+   4 : 1416 1034 929 1013
+ ... : 1416 1034 929 1213
+ ... : 1416 1034 929 1414
+ ... : 1416 1034 929 1615
+ ... : 1416 1034 924 1814
+ ... : 1416 1034 915 1990
+ ... : 1416 1034 913 2163
+ ... : 1416 1034 907 2357
+ ... : 1416 1034 906 2557
+   5 : 1416 1034 864 677 1894
+ ... : 1416 1034 864 677 2094
+   6 : 1416 1034 864 677 1422 778
+ ... : 1416 1034 864 677 1422 978
+ ... : 1416 1034 863 677 1422 1179
+ ... : 1416 1034 863 677 1422 1380
+ ... : 1416 1034 863 677 1422 1581
+ ... : 1416 1034 863 677 1422 1782
+ ... : 1416 1034 863 677 1422 1983
+ ... : 1416 1034 863 677 1422 2184
+ ... : 1416 1034 863 677 1422 2384
+ ... : 1416 1034 863 677 1422 2585
+ ... : 1416 1034 863 677 1422 2784
+ ... : 1416 1034 863 677 1422 2985
+ ... : 1416 1034 863 677 1422 3185
+ ... : 1416 1034 863 677 1422 3386
+ ... : 1416 1034 863 677 1422 3587
+ ... : 1416 1034 863 677 1422 3786
+ ... : 1416 1034 863 677 1422 3987
+   7 : 1416 970 861 676 1422 1031 2973
+   8 : 1416 970 861 676 1422 1026 65 2913
+   9 : 1416 970 861 676 1421 1025 62 20 2897
+  10 : 1416 970 861 674 1422 1026 59 2 32 2887
+  11 : 1416 970 861 674 1422 1026 59 2 6 4 2915
+  12 : 1416 970 861 674 1422 1026 59 2 1 3 19 2902
+  13 : 1416 970 861 674 1422 1026 59 2 1 0 18 2905 3
+num_solve_calls = 347251
+num_solve_sat_calls = 156559
+num_solve_unsat_calls = 9778
+num_solve_approx_calls = 204538
+num_solve_approx_unsat_calls = 72336
+num_solve_conflicts = 450427
+num_solve_decisions = 30307663
+num_solve_propagations = 1187768830
+avg_solve_conflicts = 2
+avg_solve_decisions = 88
+avg_solve_propagations = 3421
+avg_solve_unsat_decisions = 0.401
+stddev_solve_unsat_decisions = 5.849
+num_added_cubes = 32026
+num_subsumed_cubes = 22669
+num_gc_frame = 62
+num_reset = 23
+num_try_blocking = 173126
+get_bad_cube_time = 144.591
+rec_block_cube_time = 142.536
+propagate_forward_time = 38.433
+generalize_model_time = 55.928
+generalize_and_push_time = 126.316
+try_blocking_time = 92.458
+reset_time = 8.267
+clausify_time = 2.133
+preprocess_time = 6.904
+solve_time = 306.789
+solve_sat_time = 224.822
+solve_unsat_time = 81.968
+prove_time = 327.004
+memory_used_mb = 43
+total_time = 327.517
+Safe

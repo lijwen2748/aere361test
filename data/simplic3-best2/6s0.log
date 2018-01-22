@@ -1,0 +1,101 @@
+initialized model with 157 latches, 207 inputs and 1 properties
+tsim: performed 14 steps
+tsim: found cycle from 11
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 12 steps
+tsim: found cycle from 9
+tsim: found 2 constants and 0 latch equivalences
+tdecomp: (157, 828) -> (155, 340)
+   2 : 6 4
+   3 : 2 6 4
+   4 : 2 6 8 5
+   5 : 1 6 13 12 22
+ ... : 1 6 12 24 217
+ ... : 1 6 12 29 423
+ ... : 1 6 12 29 627
+   6 : 1 6 11 18 390 389
+ ... : 1 6 11 18 520 570
+ ... : 1 6 11 24 566 718
+ ... : 1 6 11 25 587 871
+ ... : 1 6 11 25 601 1026
+ ... : 1 6 11 21 527 1193
+ ... : 1 6 11 23 506 1368
+ ... : 1 6 11 23 490 1541
+ ... : 1 6 11 23 465 1741
+   7 : 1 6 11 21 169 1230 832
+ ... : 2 10 12 21 171 1282 907
+ ... : 2 10 12 21 173 1370 1014
+ ... : 2 10 12 21 173 1429 1204
+ ... : 2 10 12 21 177 1585 1324
+ ... : 2 10 12 21 172 1868 1474
+ ... : 2 10 12 21 171 1942 1619
+ ... : 2 10 12 21 173 2185 1765
+ ... : 2 10 12 21 171 2256 1919
+ ... : 2 10 12 21 170 2163 2079
+ ... : 2 10 12 21 168 2141 2263
+ ... : 2 10 12 21 165 2094 2457
+   8 : 2 10 12 21 162 293 934 3117
+ ... : 2 10 12 21 162 286 927 3299
+ ... : 2 10 12 21 162 227 896 3471
+   9 : 2 10 12 21 161 176 212 603 3522
+ ... : 2 10 12 21 161 171 199 574 3730
+  10 : 2 10 12 21 161 169 180 272 1414 2826
+ ... : 2 10 12 21 161 169 177 257 1367 3000
+ ... : 2 10 12 21 161 169 160 242 1408 3123
+ ... : 2 10 12 21 161 169 130 221 1383 3189
+ ... : 2 10 12 21 161 169 107 163 1370 3336
+ ... : 2 10 12 21 161 169 106 137 1289 3524
+  11 : 2 10 12 21 161 169 98 89 765 1810 2252
+ ... : 2 10 12 21 161 169 98 87 709 1911 2399
+ ... : 2 10 12 21 161 169 98 85 584 1844 2593
+ ... : 2 10 12 21 161 169 98 85 428 1796 2787
+ ... : 2 10 12 21 161 169 98 85 367 1612 2972
+  12 : 2 10 12 21 161 169 97 83 70 94 78 4381
+  13 : 2 10 12 21 161 169 97 83 70 92 99 81 4380
+  14 : 2 10 12 21 161 169 97 83 70 92 98 87 66 4369
+ ... : 2 10 12 21 161 169 95 76 64 89 106 104 84 4406
+ ... : 2 10 12 21 161 170 90 63 42 78 120 128 104 4429
+ ... : 2 10 12 21 161 170 88 54 31 63 107 130 127 4476
+  15 : 2 10 12 21 161 170 81 44 4 3 1 0 162 4494 3
+completing final invariant with sub-IC3 call...
+num_solve_calls = 557760
+num_solve_sat_calls = 171826
+num_solve_unsat_calls = 25323
+num_solve_approx_calls = 170757
+num_solve_approx_unsat_calls = 97068
+num_solve_conflicts = 344218
+num_solve_decisions = 51562796
+num_solve_propagations = 521141468
+avg_solve_conflicts = 1
+avg_solve_decisions = 93
+avg_solve_propagations = 935
+avg_solve_unsat_decisions = 2.096
+stddev_solve_unsat_decisions = 8.204
+num_added_cubes = 42626
+num_subsumed_cubes = 37458
+num_mic_down_calls = 78597
+num_mic_down_good = 18236
+num_added_ctgs = 3900
+num_gc_frame = 96
+num_reset = 54
+num_try_blocking = 221397
+get_bad_cube_time = 22.701
+rec_block_cube_time = 98.326
+propagate_forward_time = 18.000
+generalize_model_time = 27.577
+generalize_and_push_time = 90.439
+ctg_time = 34.541
+try_blocking_time = 107.852
+reset_time = 3.934
+clausify_time = 1.725
+preprocess_time = 2.802
+solve_time = 124.318
+solve_sat_time = 83.603
+solve_unsat_time = 40.715
+prove_time = 139.757
+memory_used_mb = 25
+total_time = 1237.188
+Safe

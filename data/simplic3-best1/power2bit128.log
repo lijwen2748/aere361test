@@ -1,0 +1,82 @@
+initialized model with 15 latches, 4 inputs and 1 properties
+tsim: performed 130 steps
+tsim: found cycle from 128
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 128 steps
+tsim: found cycle from 126
+tdecomp: no improvement found, reverting original model
+   2 : 1 0
+   3 : 1 1 0
+   4 : 1 1 1 1
+   5 : 1 1 1 1 1
+   6 : 1 1 1 1 1 2
+   7 : 1 1 1 1 1 1 1
+   8 : 1 1 1 1 1 2 2 3
+   9 : 1 1 1 1 1 2 2 2 1
+  10 : 1 1 1 1 1 1 1 1 1 1
+  11 : 1 1 1 1 1 1 1 1 1 1 1
+  12 : 1 1 1 1 1 1 1 1 1 1 1 1
+  13 : 1 1 1 1 1 1 1 1 1 1 1 1 1
+  14 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+  15 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2
+  16 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+  17 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 3
+  18 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 1
+ ... : 1 1 1 1 1 1 1 2 3 1 2 2 1 2 1 2 1 2
+  19 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 6
+  20 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5
+  21 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5
+  22 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 4
+  23 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 3
+  24 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 3
+  25 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 1
+ ... : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 2 1 2 1 2 3 2 3 2
+  26 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 6
+  27 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 6
+  28 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 6
+  29 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7
+  30 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 6
+  31 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 6
+  32 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 1 6
+  33 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 1 1 6
+  34 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 1 1 1 7
+  35 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 1 1 1 1 6
+  36 : 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 3 1 1 8 0
+completing final invariant with sub-IC3 call...
+num_solve_calls = 6152
+num_solve_sat_calls = 2672
+num_solve_unsat_calls = 309
+num_solve_approx_calls = 3309
+num_solve_approx_unsat_calls = 895
+num_solve_conflicts = 891
+num_solve_decisions = 26324
+num_solve_propagations = 297412
+avg_solve_conflicts = 1
+avg_solve_decisions = 5
+avg_solve_propagations = 49
+avg_solve_unsat_decisions = 0.000
+stddev_solve_unsat_decisions = 0.000
+num_added_cubes = 467
+num_subsumed_cubes = 424
+num_gc_frame = 293
+num_reset = 0
+num_try_blocking = 3241
+get_bad_cube_time = 0.009
+rec_block_cube_time = 0.094
+propagate_forward_time = 0.036
+generalize_model_time = 0.012
+generalize_and_push_time = 0.070
+try_blocking_time = 0.124
+reset_time = 0.000
+clausify_time = 0.031
+preprocess_time = 0.000
+solve_time = 0.117
+solve_sat_time = 0.097
+solve_unsat_time = 0.020
+prove_time = 0.173
+memory_used_mb = 7
+total_time = 0.180
+Safe

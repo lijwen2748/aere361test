@@ -1,0 +1,70 @@
+initialized model with 334 latches, 16 inputs and 1 properties
+tsim: reached all X state
+tsim: performed 5 steps
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: reached all X state
+tsim: performed 3 steps
+tdecomp: no improvement found, reverting original model
+   2 : 70 56
+   3 : 43 184 99
+ ... : 43 246 318
+   4 : 43 187 288 142
+ ... : 43 187 446 345
+   5 : 43 186 375 442 200
+ ... : 43 186 375 614 418
+ ... : 43 186 373 750 614
+   6 : 43 186 368 576 447 342
+ ... : 43 186 368 576 653 561
+   7 : 43 186 366 571 583 342 411
+ ... : 43 186 366 571 590 454 615
+   8 : 43 186 366 570 585 384 212 518
+   9 : 43 186 366 569 585 382 213 148 566
+  10 : 43 185 366 570 585 381 210 152 104 612
+  11 : 43 185 366 569 585 382 210 153 84 49 690
+  12 : 43 185 366 569 585 382 210 151 75 46 21 719
+  13 : 43 185 366 568 586 382 210 151 75 46 21 17 722
+  14 : 43 185 366 568 586 382 210 151 75 46 21 11 10 731
+  15 : 43 185 366 568 586 382 210 151 75 46 21 11 6 2 740
+  16 : 43 185 366 568 586 382 210 151 75 46 21 11 6 0 743 0
+completing final invariant with sub-IC3 call...
+num_solve_calls = 156553
+num_solve_sat_calls = 57892
+num_solve_unsat_calls = 12568
+num_solve_approx_calls = 69142
+num_solve_approx_unsat_calls = 31693
+num_solve_conflicts = 202866
+num_solve_decisions = 7396359
+num_solve_propagations = 104399050
+avg_solve_conflicts = 2
+avg_solve_decisions = 48
+avg_solve_propagations = 667
+avg_solve_unsat_decisions = 0.793
+stddev_solve_unsat_decisions = 3.661
+num_added_cubes = 11171
+num_subsumed_cubes = 7778
+num_mic_down_calls = 22233
+num_mic_down_good = 10380
+num_added_ctgs = 1612
+num_gc_frame = 58
+num_reset = 14
+num_try_blocking = 72914
+get_bad_cube_time = 10.706
+rec_block_cube_time = 9.469
+propagate_forward_time = 9.707
+generalize_model_time = 3.272
+generalize_and_push_time = 8.819
+ctg_time = 4.110
+try_blocking_time = 18.295
+reset_time = 0.237
+clausify_time = 0.578
+preprocess_time = 0.124
+solve_time = 27.843
+solve_sat_time = 21.819
+solve_unsat_time = 6.024
+prove_time = 30.420
+memory_used_mb = 15
+total_time = 42.951
+Safe

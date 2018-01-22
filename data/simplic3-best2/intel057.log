@@ -1,0 +1,71 @@
+initialized model with 416 latches, 411 inputs and 1 properties
+tsim: performed 5 steps
+tsim: found cycle from 2
+tsim: found 0 constants and 1 latch equivalences
+seqsimpl: (416, 411) -> (196, 411)
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 3 steps
+tsim: found cycle from 0
+tsim: found 2 constants and 0 latch equivalences
+tdecomp: (196, 1644) -> (194, 888)
+   2 : 88 16
+   3 : 81 139 44
+   4 : 78 52 111 177
+   5 : 78 51 69 114 158
+   6 : 78 51 60 84 118 196
+   7 : 78 51 60 82 114 144 101
+   8 : 78 51 60 81 108 85 99 135
+   9 : 78 51 60 81 106 85 97 36 194
+  10 : 78 51 60 80 99 79 97 48 48 249
+  11 : 78 51 60 80 99 79 97 48 52 88 171
+  12 : 78 51 60 80 98 76 99 49 55 50 73 240
+  13 : 78 51 60 80 98 76 99 49 55 49 66 90 201
+  14 : 78 51 60 80 98 76 95 49 55 44 72 57 47 327
+  15 : 78 51 60 80 98 76 95 49 55 44 72 57 47 21 346
+  16 : 78 51 60 80 98 76 95 49 55 44 72 56 50 25 9 350
+  17 : 78 51 60 80 98 76 95 49 55 44 72 56 50 25 9 2 352
+  18 : 78 51 60 80 98 76 95 49 55 44 72 56 50 25 9 6 1 364
+  19 : 78 51 60 80 98 76 95 49 55 44 71 57 50 25 9 2 1 2 372
+  20 : 78 51 60 80 98 76 95 49 55 44 71 57 50 25 9 2 1 2 0 372
+completing final invariant with sub-IC3 call...
+num_solve_calls = 142431
+num_solve_sat_calls = 45314
+num_solve_unsat_calls = 3590
+num_solve_approx_calls = 108472
+num_solve_approx_unsat_calls = 76695
+num_solve_conflicts = 23421
+num_solve_decisions = 7679552
+num_solve_propagations = 120397160
+avg_solve_conflicts = 1
+avg_solve_decisions = 54
+avg_solve_propagations = 846
+avg_solve_unsat_decisions = 0.195
+stddev_solve_unsat_decisions = 0.934
+num_added_cubes = 6873
+num_subsumed_cubes = 5598
+num_mic_down_calls = 10056
+num_mic_down_good = 2857
+num_added_ctgs = 922
+num_gc_frame = 93
+num_reset = 6
+num_try_blocking = 28319
+get_bad_cube_time = 2.176
+rec_block_cube_time = 19.985
+propagate_forward_time = 3.600
+generalize_model_time = 2.040
+generalize_and_push_time = 19.139
+ctg_time = 15.367
+try_blocking_time = 19.135
+reset_time = 0.185
+clausify_time = 0.655
+preprocess_time = 0.089
+solve_time = 23.852
+solve_sat_time = 18.328
+solve_unsat_time = 5.524
+prove_time = 26.378
+memory_used_mb = 14
+total_time = 26.560
+Safe

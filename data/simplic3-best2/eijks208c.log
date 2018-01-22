@@ -1,0 +1,73 @@
+initialized model with 23 latches, 10 inputs and 1 properties
+tsim: reached all X state
+tsim: performed 9 steps
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: reached all X state
+tsim: performed 7 steps
+tdecomp: no improvement found, reverting original model
+   2 : 2 16
+   3 : 2 3 17
+   4 : 2 3 2 18
+   5 : 2 3 2 2 20
+   6 : 2 3 2 2 2 18
+   7 : 2 3 2 2 1 2 18
+   8 : 2 3 2 2 1 2 1 22
+   9 : 2 3 2 2 1 2 1 1 21
+  10 : 2 3 2 2 1 2 1 1 2 21
+  11 : 2 3 2 2 1 2 1 1 2 2 20
+  12 : 2 3 2 2 1 2 1 1 2 1 1 23
+  13 : 2 3 2 2 1 2 1 1 2 1 1 2 21
+  14 : 2 3 2 2 1 2 1 1 2 1 1 2 2 21
+  15 : 2 3 2 2 1 2 1 1 2 1 1 2 2 2 25
+  16 : 2 3 2 2 1 2 1 1 2 1 1 2 2 2 2 23
+  17 : 2 3 2 2 1 2 1 1 2 1 1 2 2 2 2 1 27
+  18 : 2 3 2 2 1 2 1 1 2 1 1 2 2 2 2 1 2 25
+  19 : 2 3 2 2 1 2 1 1 2 1 1 2 2 2 2 1 2 2 23
+  20 : 2 3 2 2 1 2 1 1 2 1 1 2 2 2 2 1 2 1 2 23
+  21 : 2 3 2 2 1 2 1 1 2 1 1 2 2 2 2 1 2 1 2 2 25
+  22 : 2 3 2 2 1 2 1 1 2 1 1 2 2 2 2 1 2 1 2 2 2 23
+  23 : 2 3 2 2 1 2 1 1 2 1 1 2 2 2 2 1 2 1 2 2 1 2 23
+  24 : 2 3 2 2 1 2 1 1 2 1 1 2 2 2 2 1 2 1 2 2 1 2 2 25
+  25 : 2 3 2 2 1 2 1 1 2 1 1 2 2 2 2 1 2 1 2 2 1 2 2 0 25
+completing final invariant with sub-IC3 call...
+num_solve_calls = 2660
+num_solve_sat_calls = 842
+num_solve_unsat_calls = 86
+num_solve_approx_calls = 1753
+num_solve_approx_unsat_calls = 1158
+num_solve_conflicts = 5630
+num_solve_decisions = 22188
+num_solve_propagations = 454394
+avg_solve_conflicts = 3
+avg_solve_decisions = 9
+avg_solve_propagations = 171
+avg_solve_unsat_decisions = 0.000
+stddev_solve_unsat_decisions = 0.000
+num_added_cubes = 599
+num_subsumed_cubes = 535
+num_mic_down_calls = 136
+num_mic_down_good = 23
+num_added_ctgs = 9
+num_gc_frame = 111
+num_reset = 0
+num_try_blocking = 1325
+get_bad_cube_time = 0.074
+rec_block_cube_time = 0.010
+propagate_forward_time = 0.031
+generalize_model_time = 0.009
+generalize_and_push_time = 0.009
+ctg_time = 0.004
+try_blocking_time = 0.036
+reset_time = 0.000
+clausify_time = 0.069
+preprocess_time = 0.000
+solve_time = 0.108
+solve_sat_time = 0.045
+solve_unsat_time = 0.063
+prove_time = 0.195
+memory_used_mb = 7
+total_time = 0.262
+Safe

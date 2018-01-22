@@ -1,0 +1,20 @@
+initialized model with 316 latches, 393 inputs and 1 properties
+tsim: performed 3 steps
+tsim: found cycle from 1
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 2 steps
+tsim: found cycle from 0
+tsim: found 1 constants and 0 latch equivalences
+tdecomp: (316, 1572) -> (315, 1100)
+   2 : 1 0
+   3 : 20 26 0
+ ... : 40 81 45
+ ... : 60 143 93
+ ... : 63 202 172
+ ... : 68 267 234
+ ... : 68 313 340
+   4 : 68 360 398 4
+ ... : 70 426 453 8

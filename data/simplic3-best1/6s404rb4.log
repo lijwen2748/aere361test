@@ -1,0 +1,82 @@
+initialized model with 9801 latches, 202 inputs and 1 properties
+tsim: reached all X state
+tsim: performed 12 steps
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: reached all X state
+tsim: performed 10 steps
+tdecomp: no improvement found, reverting original model
+ ... : 200
+ ... : 401
+   2 : 269 209
+ ... : 267 409
+ ... : 265 610
+ ... : 264 810
+   3 : 264 448 382
+ ... : 264 445 582
+   4 : 264 446 231 444
+ ... : 264 446 229 644
+ ... : 264 445 224 841
+ ... : 264 445 215 1016
+   5 : 264 445 193 295 896
+ ... : 264 445 192 287 1096
+ ... : 264 445 192 278 1294
+   6 : 264 444 189 269 332 1042
+ ... : 264 444 189 269 332 1242
+ ... : 264 444 189 269 332 1443
+ ... : 264 444 188 269 331 1643
+   7 : 264 444 180 261 312 400 1345
+ ... : 264 444 180 261 312 398 1544
+ ... : 264 444 180 261 310 389 1741
+   8 : 264 444 180 253 306 369 469 1355
+ ... : 264 444 180 253 306 369 448 1551
+ ... : 264 444 180 253 306 368 441 1751
+   9 : 264 444 180 252 306 367 412 234 1568
+  10 : 264 444 180 252 301 369 381 166 32 1761
+  11 : 264 444 180 252 301 368 378 164 16 37 1804
+  12 : 264 444 180 252 299 367 379 159 16 11 39 1901
+  13 : 264 444 180 252 299 367 379 159 15 9 10 26 1986
+  14 : 264 444 180 252 299 367 379 159 15 9 5 9 63 2053
+  15 : 264 444 180 252 298 361 374 157 14 7 4 9 9 35 2164
+  16 : 264 444 180 252 296 360 370 157 14 7 4 7 5 13 143 2174
+  17 : 264 444 180 252 296 359 370 157 14 7 3 3 1 2 18 27 2412
+  18 : 264 444 180 252 296 359 369 157 14 4 1 2 1 1 11 11 75 2384
+  19 : 264 444 180 252 296 359 369 157 14 4 1 1 1 1 11 11 34 57 2398
+  20 : 264 444 180 252 296 358 369 146 10 2 1 1 0 3 11 11 33 43 2480 16
+completing final invariant with sub-IC3 call...
+num_solve_calls = 233621
+num_solve_sat_calls = 86049
+num_solve_unsat_calls = 5341
+num_solve_approx_calls = 156881
+num_solve_approx_unsat_calls = 76779
+num_solve_conflicts = 204809
+num_solve_decisions = 76544458
+num_solve_propagations = 2557139440
+avg_solve_conflicts = 1
+avg_solve_decisions = 328
+avg_solve_propagations = 10946
+avg_solve_unsat_decisions = 167.841
+stddev_solve_unsat_decisions = 4223.382
+num_added_cubes = 33907
+num_subsumed_cubes = 28987
+num_gc_frame = 122
+num_reset = 22
+num_try_blocking = 121181
+get_bad_cube_time = 499.906
+rec_block_cube_time = 95.097
+propagate_forward_time = 35.872
+generalize_model_time = 186.420
+generalize_and_push_time = 53.554
+try_blocking_time = 102.499
+reset_time = 26.173
+clausify_time = 12.301
+preprocess_time = 19.586
+solve_time = 590.241
+solve_sat_time = 383.589
+solve_unsat_time = 206.653
+prove_time = 639.227
+memory_used_mb = 172
+total_time = 727.884
+Safe

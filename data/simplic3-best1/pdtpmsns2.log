@@ -1,0 +1,76 @@
+initialized model with 334 latches, 16 inputs and 1 properties
+tsim: reached all X state
+tsim: performed 5 steps
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: reached all X state
+tsim: performed 3 steps
+tdecomp: no improvement found, reverting original model
+   2 : 83 64
+ ... : 84 248
+   3 : 81 202 113
+ ... : 81 204 294
+ ... : 81 207 469
+   4 : 78 166 346 190
+ ... : 78 166 345 388
+ ... : 78 166 351 559
+   5 : 77 160 316 436 280
+ ... : 77 160 314 438 457
+ ... : 77 160 314 442 634
+ ... : 77 160 313 454 757
+   6 : 77 156 312 437 403 395
+ ... : 77 156 312 437 402 594
+   7 : 77 156 311 436 392 331 421
+ ... : 77 156 311 436 392 331 611
+ ... : 77 156 311 436 389 333 775
+   8 : 77 152 300 416 381 332 256 632
+ ... : 77 152 300 416 381 332 260 806
+ ... : 77 152 299 416 381 334 289 901
+   9 : 76 150 300 416 381 332 266 195 741
+  10 : 76 150 300 416 381 332 261 164 84 800
+  11 : 76 150 300 411 384 334 261 158 62 43 891
+  12 : 76 150 300 411 384 334 261 158 61 33 36 900
+  13 : 76 150 300 411 384 334 261 158 61 32 27 36 904
+  14 : 76 150 300 411 384 334 260 155 57 26 22 31 20 911
+  15 : 76 150 300 411 384 334 260 155 57 26 22 31 11 43 907
+  16 : 76 150 300 411 384 334 260 155 57 26 22 31 11 36 23 940
+  17 : 76 150 300 411 384 334 260 155 57 26 22 31 11 36 19 8 944
+  18 : 76 150 300 411 384 334 260 155 57 26 22 31 11 36 19 8 5 939
+  19 : 76 150 300 411 384 334 260 155 57 26 22 31 11 36 19 8 0 944 0
+completing final invariant with sub-IC3 call...
+num_solve_calls = 164215
+num_solve_sat_calls = 62066
+num_solve_unsat_calls = 3757
+num_solve_approx_calls = 109052
+num_solve_approx_unsat_calls = 51137
+num_solve_conflicts = 224877
+num_solve_decisions = 7158207
+num_solve_propagations = 188199275
+avg_solve_conflicts = 2
+avg_solve_decisions = 44
+avg_solve_propagations = 1147
+avg_solve_unsat_decisions = 2.133
+stddev_solve_unsat_decisions = 15.405
+num_added_cubes = 15085
+num_subsumed_cubes = 11861
+num_gc_frame = 78
+num_reset = 15
+num_try_blocking = 83336
+get_bad_cube_time = 25.123
+rec_block_cube_time = 7.853
+propagate_forward_time = 10.843
+generalize_model_time = 5.064
+generalize_and_push_time = 6.536
+try_blocking_time = 17.608
+reset_time = 0.264
+clausify_time = 0.396
+preprocess_time = 0.175
+solve_time = 41.872
+solve_sat_time = 31.863
+solve_unsat_time = 10.008
+prove_time = 44.181
+memory_used_mb = 13
+total_time = 57.025
+Safe

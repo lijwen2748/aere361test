@@ -1,0 +1,69 @@
+initialized model with 92 latches, 8 inputs and 1 properties
+tsim: reached all X state
+tsim: performed 5 steps
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: reached all X state
+tsim: performed 3 steps
+tdecomp: no improvement found, reverting original model
+   2 : 75 125
+   3 : 73 165 53
+ ... : 73 165 253
+ ... : 73 165 433
+   4 : 72 110 256 264
+ ... : 72 110 257 456
+   5 : 73 85 129 313 332
+ ... : 73 85 129 313 531
+   6 : 73 86 121 210 371 331
+ ... : 73 86 121 210 367 524
+ ... : 73 86 121 210 368 703
+   7 : 73 86 120 184 259 364 488
+ ... : 73 86 120 184 259 363 679
+   8 : 73 86 120 184 251 222 319 585
+ ... : 73 86 120 184 251 222 323 756
+   9 : 73 86 120 184 249 191 174 250 685
+ ... : 73 86 120 184 249 191 175 253 850
+  10 : 73 86 120 184 249 191 154 91 161 823
+  11 : 73 86 120 184 249 188 150 67 36 34 956
+  12 : 73 86 120 184 249 188 150 67 36 30 23 948
+  13 : 73 86 120 184 249 187 149 69 37 29 26 14 961
+  14 : 73 86 120 184 249 187 149 69 37 29 26 12 10 969
+  15 : 73 86 120 184 249 187 149 69 37 29 26 12 10 5 967
+  16 : 73 86 120 184 249 187 149 69 37 29 26 10 0 14 979 0
+completing final invariant with sub-IC3 call...
+num_solve_calls = 139651
+num_solve_sat_calls = 43354
+num_solve_unsat_calls = 3144
+num_solve_approx_calls = 94908
+num_solve_approx_unsat_calls = 55904
+num_solve_conflicts = 213403
+num_solve_decisions = 1529155
+num_solve_propagations = 124511796
+avg_solve_conflicts = 2
+avg_solve_decisions = 11
+avg_solve_propagations = 892
+avg_solve_unsat_decisions = 0.135
+stddev_solve_unsat_decisions = 1.094
+num_added_cubes = 12814
+num_subsumed_cubes = 10602
+num_gc_frame = 70
+num_reset = 11
+num_try_blocking = 55517
+get_bad_cube_time = 20.642
+rec_block_cube_time = 6.718
+propagate_forward_time = 6.308
+generalize_model_time = 3.728
+generalize_and_push_time = 5.569
+try_blocking_time = 12.338
+reset_time = 0.144
+clausify_time = 0.223
+preprocess_time = 0.105
+solve_time = 32.406
+solve_sat_time = 24.823
+solve_unsat_time = 7.583
+prove_time = 33.859
+memory_used_mb = 11
+total_time = 37.832
+Safe

@@ -1,0 +1,67 @@
+initialized model with 128 latches, 9 inputs and 1 properties
+tsim: reached all X state
+tsim: performed 10 steps
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: reached all X state
+tsim: performed 8 steps
+tdecomp: no improvement found, reverting original model
+   2 : 1 0
+   3 : 1 1 7
+   4 : 1 1 1 6
+   5 : 1 1 1 1 5
+   6 : 1 1 1 1 2 3
+   7 : 1 1 1 1 3 2 2
+   8 : 1 1 1 1 4 6 5 1
+   9 : 1 1 1 1 4 5 5 2 2
+  10 : 1 1 1 1 4 4 6 3 4 3
+  11 : 1 1 1 1 4 4 6 3 4 4 2
+  12 : 1 1 1 1 4 4 5 3 5 7 6 3
+  13 : 1 1 1 1 4 4 5 3 5 7 6 2 7
+  14 : 1 1 1 1 4 4 5 3 5 7 6 5 3 6
+  15 : 1 1 1 1 4 4 5 3 5 7 4 3 2 2 11
+  16 : 1 1 1 1 4 4 5 3 5 7 4 3 2 2 3 8
+  17 : 1 1 1 1 4 4 5 3 5 7 4 3 2 2 4 3 9
+  18 : 1 1 1 1 4 4 5 3 5 7 4 3 2 2 4 3 4 10
+  19 : 1 1 1 1 4 4 5 3 5 7 4 3 2 2 4 3 3 0 12
+completing final invariant with sub-IC3 call...
+num_solve_calls = 3369
+num_solve_sat_calls = 1252
+num_solve_unsat_calls = 181
+num_solve_approx_calls = 1256
+num_solve_approx_unsat_calls = 527
+num_solve_conflicts = 2508
+num_solve_decisions = 144261
+num_solve_propagations = 1363339
+avg_solve_conflicts = 1
+avg_solve_decisions = 43
+avg_solve_propagations = 405
+avg_solve_unsat_decisions = 0.486
+stddev_solve_unsat_decisions = 1.205
+num_added_cubes = 221
+num_subsumed_cubes = 156
+num_mic_down_calls = 418
+num_mic_down_good = 131
+num_added_ctgs = 52
+num_gc_frame = 58
+num_reset = 0
+num_try_blocking = 1542
+get_bad_cube_time = 0.084
+rec_block_cube_time = 0.185
+propagate_forward_time = 0.090
+generalize_model_time = 0.061
+generalize_and_push_time = 0.177
+ctg_time = 0.081
+try_blocking_time = 0.269
+reset_time = 0.000
+clausify_time = 0.523
+preprocess_time = 0.087
+solve_time = 0.337
+solve_sat_time = 0.253
+solve_unsat_time = 0.084
+prove_time = 0.993
+memory_used_mb = 14
+total_time = 1.188
+Safe

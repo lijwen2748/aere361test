@@ -1,0 +1,97 @@
+initialized model with 3519 latches, 1071 inputs and 1 properties
+tsim: performed 9 steps
+tsim: found cycle from 7
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 7 steps
+tsim: found cycle from 5
+tsim: found 2 constants and 0 latch equivalences
+tdecomp: (3519, 4284) -> (3476, 2822)
+ ... : 200
+ ... : 401
+ ... : 602
+ ... : 803
+ ... : 1004
+ ... : 1205
+ ... : 1406
+   2 : 707 790
+ ... : 713 990
+ ... : 713 1191
+ ... : 716 1392
+ ... : 761 1591
+ ... : 781 1798
+ ... : 778 2007
+   3 : 719 1187 898
+ ... : 716 1191 1110
+ ... : 716 1207 1319
+ ... : 716 1239 1524
+   4 : 714 1197 632 988
+ ... : 714 1197 633 1203
+ ... : 714 1197 637 1427
+ ... : 714 1197 650 1640
+ ... : 714 1197 690 1853
+ ... : 714 1197 725 2081
+ ... : 714 1197 737 2179
+ ... : 714 1197 726 2246
+ ... : 714 1197 666 2066
+ ... : 712 1206 707 2168
+ ... : 712 1204 714 2259
+   5 : 706 1201 575 838 1552
+ ... : 706 1201 574 999 1810
+ ... : 705 1201 574 1371 1989
+ ... : 705 1201 569 1927 2293
+ ... : 705 1201 570 2444 2601
+ ... : 705 1201 570 2613 2831
+ ... : 705 1201 572 3001 3081
+ ... : 705 1201 577 3518 3396
+ ... : 705 1201 581 3851 3652
+ ... : 705 1201 598 4044 3808
+ ... : 700 1204 604 4209 3931
+ ... : 696 1205 603 4462 4195
+ ... : 696 1205 601 4679 4447
+ ... : 696 1203 600 4869 4689
+ ... : 696 1200 588 5055 4863
+ ... : 695 1199 587 5332 4968
+ ... : 696 1200 590 5598 5096
+tdecomp: completing cex trace with 2 initial steps
+seqsimpl: completing cex trace with simulation
+num_solve_calls = 3437157
+num_solve_sat_calls = 574600
+num_solve_unsat_calls = 54161
+num_solve_approx_calls = 3069215
+num_solve_approx_unsat_calls = 2595452
+num_solve_conflicts = 247925
+num_solve_decisions = 434910043
+num_solve_propagations = 7290267585
+avg_solve_conflicts = 1
+avg_solve_decisions = 127
+avg_solve_propagations = 2122
+avg_solve_unsat_decisions = 2.259
+stddev_solve_unsat_decisions = 19.089
+num_added_cubes = 20454
+num_subsumed_cubes = 7210
+num_mic_down_calls = 114929
+num_mic_down_good = 45757
+num_added_ctgs = 7563
+num_gc_frame = 11
+num_reset = 38
+num_try_blocking = 165494
+get_bad_cube_time = 369.513
+rec_block_cube_time = 822.543
+propagate_forward_time = 4.458
+generalize_model_time = 262.629
+generalize_and_push_time = 707.986
+ctg_time = 520.769
+try_blocking_time = 779.683
+reset_time = 13.129
+clausify_time = 11.338
+preprocess_time = 6.568
+solve_time = 1060.681
+solve_sat_time = 680.431
+solve_unsat_time = 380.250
+prove_time = 1201.377
+memory_used_mb = 147
+total_time = 1203.223
+Unsafe

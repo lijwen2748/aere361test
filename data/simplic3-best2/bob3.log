@@ -1,0 +1,72 @@
+initialized model with 74 latches, 12 inputs and 1 properties
+tsim: reached all X state
+tsim: performed 15 steps
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: reached all X state
+tsim: performed 13 steps
+tdecomp: no improvement found, reverting original model
+   2 : 23 22
+   3 : 21 44 23
+   4 : 12 27 55 60
+   5 : 10 26 22 50 73
+   6 : 10 26 21 35 39 60
+   7 : 10 26 19 37 39 45 36
+   8 : 10 23 16 24 31 19 59 58
+   9 : 10 23 12 15 15 12 26 41 143
+  10 : 10 23 12 12 6 10 38 40 85 108
+  11 : 10 23 12 12 6 5 25 28 100 107 125
+  12 : 10 23 12 12 6 5 25 28 98 85 110 71
+  13 : 10 23 12 12 6 5 25 28 98 70 68 67 112
+  14 : 10 23 12 12 6 5 25 28 98 69 56 56 94 103
+  15 : 10 23 12 12 6 5 25 28 98 69 54 53 76 108 105
+  16 : 10 23 12 12 6 5 25 28 98 69 54 53 75 58 65 158
+  17 : 10 23 12 12 6 5 25 28 98 69 54 53 75 58 66 50 118
+  18 : 10 23 12 12 6 5 25 28 98 69 54 52 76 55 61 67 48 129
+  19 : 10 23 12 12 6 5 25 28 98 69 54 52 76 55 61 67 54 29 152
+  20 : 10 23 12 12 6 5 25 28 98 69 54 52 76 55 61 66 53 31 61 120
+  21 : 10 23 12 12 6 5 25 28 98 69 54 52 76 55 60 66 51 22 14 26 227
+  22 : 10 23 12 12 6 5 25 28 98 69 54 52 76 55 60 66 51 22 14 25 16 215
+  23 : 10 23 12 12 6 5 25 28 98 69 54 52 76 55 60 66 51 22 14 25 11 3 222
+  24 : 10 23 12 12 6 5 25 28 98 69 54 52 76 55 60 66 51 22 14 25 11 3 1 221
+  25 : 10 23 12 12 6 5 25 28 98 69 54 52 76 55 60 66 51 22 14 25 11 3 1 0 221
+num_solve_calls = 62504
+num_solve_sat_calls = 25098
+num_solve_unsat_calls = 2855
+num_solve_approx_calls = 35418
+num_solve_approx_unsat_calls = 17860
+num_solve_conflicts = 29329
+num_solve_decisions = 626852
+num_solve_propagations = 8938693
+avg_solve_conflicts = 1
+avg_solve_decisions = 11
+avg_solve_propagations = 144
+avg_solve_unsat_decisions = 0.502
+stddev_solve_unsat_decisions = 1.755
+num_added_cubes = 5174
+num_subsumed_cubes = 4175
+num_mic_down_calls = 6131
+num_mic_down_good = 1832
+num_added_ctgs = 462
+num_gc_frame = 103
+num_reset = 5
+num_try_blocking = 24904
+get_bad_cube_time = 0.672
+rec_block_cube_time = 1.145
+propagate_forward_time = 1.254
+generalize_model_time = 0.344
+generalize_and_push_time = 1.009
+ctg_time = 0.445
+try_blocking_time = 2.287
+reset_time = 0.022
+clausify_time = 0.133
+preprocess_time = 0.010
+solve_time = 2.757
+solve_sat_time = 2.047
+solve_unsat_time = 0.710
+prove_time = 3.200
+memory_used_mb = 8
+total_time = 3.215
+Safe

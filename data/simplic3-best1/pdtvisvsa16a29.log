@@ -1,0 +1,12 @@
+initialized model with 236 latches, 32 inputs and 1 properties
+tsim: performed 13 steps
+tsim: found cycle from 7
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 11 steps
+tsim: found cycle from 5
+tdecomp: no improvement found, reverting original model
+   2 : 0 0
+completing final invariant with sub-IC3 call...

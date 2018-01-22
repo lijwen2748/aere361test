@@ -1,0 +1,51 @@
+initialized model with 403 latches, 541 inputs and 1 properties
+tsim: performed 3 steps
+tsim: found cycle from 1
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 2 steps
+tsim: found cycle from 0
+tsim: found 1 constants and 0 latch equivalences
+tdecomp: (403, 2164) -> (402, 1483)
+tdecomp: completing cex trace with 2 initial steps
+seqsimpl: completing cex trace with simulation
+num_solve_calls = 3
+num_solve_sat_calls = 1
+num_solve_unsat_calls = 0
+num_solve_approx_calls = 0
+num_solve_approx_unsat_calls = 0
+num_solve_conflicts = 148592
+num_solve_decisions = 195835
+num_solve_propagations = 365300018
+avg_solve_conflicts = 49531
+avg_solve_decisions = 65279
+avg_solve_propagations = 121766673
+avg_solve_unsat_decisions = 0.000
+stddev_solve_unsat_decisions = 0.000
+num_added_cubes = 0
+num_subsumed_cubes = 0
+num_mic_down_calls = 0
+num_mic_down_good = 0
+num_added_ctgs = 0
+num_gc_frame = 0
+num_reset = 0
+num_try_blocking = 0
+get_bad_cube_time = 0.000
+rec_block_cube_time = 0.000
+propagate_forward_time = 0.000
+generalize_model_time = 0.000
+generalize_and_push_time = 0.000
+ctg_time = 0.000
+try_blocking_time = 0.000
+reset_time = 0.000
+clausify_time = 0.647
+preprocess_time = 0.056
+solve_time = 84.587
+solve_sat_time = 72.969
+solve_unsat_time = 11.618
+prove_time = 85.323
+memory_used_mb = 43
+total_time = 85.640
+Unsafe

@@ -1,0 +1,87 @@
+initialized model with 45 latches, 3 inputs and 1 properties
+tsim: reached all X state
+tsim: performed 7 steps
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: reached all X state
+tsim: performed 5 steps
+tdecomp: no improvement found, reverting original model
+   2 : 2 5
+   3 : 2 2 4
+   4 : 2 2 2 3
+   5 : 2 2 2 2 4
+   6 : 2 2 2 2 2 3
+   7 : 2 2 2 2 2 1 2
+   8 : 2 2 2 2 2 1 1 1
+   9 : 2 2 2 2 2 1 1 1 1
+  10 : 2 2 2 2 2 1 1 1 1 1
+  11 : 2 2 2 2 2 1 1 1 1 1 3
+  12 : 3 5 3 5 6 3 4 2 3 4 3 4
+  13 : 3 5 3 5 6 3 4 2 3 4 3 2 4
+  14 : 3 5 3 5 6 3 4 2 3 4 3 3 2 4
+  15 : 3 6 6 8 6 4 6 6 4 3 2 2 2 2 18
+  16 : 3 6 6 8 6 4 6 6 4 3 2 2 2 3 3 16
+  17 : 3 6 6 8 6 4 6 6 4 3 2 2 2 3 4 5 15
+  18 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 6 13 18
+  19 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 6 13 12 7
+  20 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 6 13 12 5 7
+  21 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 6 7 21 10 9 12
+  22 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 5 16 13 14 6 12
+  23 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 5 16 12 13 11 9 15
+  24 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 5 16 12 13 11 8 8 10
+  25 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 5 16 12 13 11 8 11 9 9
+  26 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 4 15 12 13 12 11 12 14 13 17
+  27 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 4 15 12 13 12 11 12 14 12 9 15
+  28 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 4 15 11 10 9 8 13 14 13 12 8 25
+  29 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 4 15 11 10 9 8 13 14 13 10 8 7 25
+  30 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 4 15 11 10 9 8 13 14 13 11 8 8 3 22
+  31 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 4 15 11 10 9 8 13 14 13 11 8 8 4 5 22
+  32 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 4 15 11 10 9 8 13 14 13 11 8 8 4 6 5 26
+ ... : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 4 15 11 10 8 7 8 8 7 7 3 5 3 3 10 31
+  33 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 4 15 11 10 8 7 7 6 6 2 3 1 1 1 2 1 53
+  34 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 4 15 11 10 8 7 7 6 6 2 3 1 1 1 2 1 1 52
+  35 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 4 15 11 10 8 7 7 6 6 2 3 1 1 1 2 1 1 1 51
+  36 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 4 15 11 10 8 7 7 6 6 2 3 1 1 1 2 1 1 1 1 50
+  37 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 4 15 11 10 8 7 7 6 6 2 3 1 1 1 2 1 1 1 1 1 52
+  38 : 3 6 6 8 6 4 6 6 4 3 5 5 7 6 7 5 4 15 11 10 8 7 7 6 6 2 3 0 0 0 0 0 0 0 3 2 52 0
+completing final invariant with sub-IC3 call...
+num_solve_calls = 44217
+num_solve_sat_calls = 16886
+num_solve_unsat_calls = 2114
+num_solve_approx_calls = 14026
+num_solve_approx_unsat_calls = 4566
+num_solve_conflicts = 69476
+num_solve_decisions = 751677
+num_solve_propagations = 56374527
+avg_solve_conflicts = 2
+avg_solve_decisions = 17
+avg_solve_propagations = 1275
+avg_solve_unsat_decisions = 1.670
+stddev_solve_unsat_decisions = 6.167
+num_added_cubes = 1579
+num_subsumed_cubes = 1356
+num_mic_down_calls = 4984
+num_mic_down_good = 1562
+num_added_ctgs = 251
+num_gc_frame = 277
+num_reset = 5
+num_try_blocking = 19519
+get_bad_cube_time = 5.477
+rec_block_cube_time = 6.737
+propagate_forward_time = 1.721
+generalize_model_time = 1.542
+generalize_and_push_time = 6.092
+ctg_time = 2.669
+try_blocking_time = 8.156
+reset_time = 0.245
+clausify_time = 4.235
+preprocess_time = 0.144
+solve_time = 13.439
+solve_sat_time = 9.730
+solve_unsat_time = 3.709
+prove_time = 18.219
+memory_used_mb = 22
+total_time = 22.500
+Safe

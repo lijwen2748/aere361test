@@ -1,0 +1,46 @@
+initialized model with 35 latches, 81 inputs and 1 properties
+tsim: performed 3 steps
+tsim: found cycle from 1
+checking bound 0
+checking bound 1
+checking bound 2
+tdecomp: unrolling 2 cycles
+tsim: performed 2 steps
+tsim: found cycle from 0
+tsim: found 1 constants and 0 latch equivalences
+tdecomp: (35, 324) -> (34, 195)
+   2 : 0 2
+num_solve_calls = 33
+num_solve_sat_calls = 6
+num_solve_unsat_calls = 2
+num_solve_approx_calls = 12
+num_solve_approx_unsat_calls = 12
+num_solve_conflicts = 153
+num_solve_decisions = 1386
+num_solve_propagations = 158238
+avg_solve_conflicts = 5
+avg_solve_decisions = 42
+avg_solve_propagations = 4796
+avg_solve_unsat_decisions = 0.000
+stddev_solve_unsat_decisions = 0.000
+num_added_cubes = 4
+num_subsumed_cubes = 2
+num_gc_frame = 4
+num_reset = 0
+num_try_blocking = 7
+get_bad_cube_time = 0.025
+rec_block_cube_time = 0.004
+propagate_forward_time = 0.000
+generalize_model_time = 0.005
+generalize_and_push_time = 0.004
+try_blocking_time = 0.001
+reset_time = 0.000
+clausify_time = 0.162
+preprocess_time = 0.024
+solve_time = 0.030
+solve_sat_time = 0.023
+solve_unsat_time = 0.007
+prove_time = 0.225
+memory_used_mb = 12
+total_time = 0.310
+Safe

@@ -1,0 +1,11 @@
+initialized model with 381 latches, 122 inputs and 1 properties
+tsim: performed 19 steps
+tsim: found cycle from 17
+checking bound 0
+reached_depth = 1
+clausify_time = 0.000
+preprocess_time = 0.000
+prove_time = 0.000
+memory_used_mb = 3
+total_time = 0.008
+Unsafe
